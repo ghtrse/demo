@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "noResolve": false,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es6"],
+    "rootDir": "src",
+    "outDir": "lib",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "strict": true,
+    "allowJs": true,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["server/**/*.ts", "client/**/*.ts"]
+}
